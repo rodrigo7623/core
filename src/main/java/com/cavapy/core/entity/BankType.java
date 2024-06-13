@@ -26,4 +26,7 @@ public class BankType {
 
     @Column(name = "ACCOUNT_NUMBER")
     private String accountNumber;
+
+    @Column(name = "CURRENCY")
+    private String currency;
 }
